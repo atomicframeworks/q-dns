@@ -1,15 +1,15 @@
-q-dns
+Q-DNS
 =========
 
-A small library that wraps Node.js DNS with Q promises.
+A small library that wraps Node.js DNS with Q promises.  
+
+Q-DNS offeres the same Node.js [DNS](http://nodejs.org/api/dns.html) methods conveniently wrapped in Q promises.
 
 ## Installation
 
     npm install q-dns --save
 
 ## Usage
-
-q-dns offers the methods of Node.js (DNS)[http://nodejs.org/api/dns.html] but conveniently wrapped in Q promises.
 
     var qdns = require('q-dns');
 
