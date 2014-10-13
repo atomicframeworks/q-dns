@@ -5,7 +5,7 @@ A small library that wraps Node.js DNS with Q promises.
 
 ## Installation
 
-  npm install qns --save
+    npm install qns --save
 
 ## Usage
 
