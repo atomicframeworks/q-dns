@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/mcgintke/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/Users/mcgintke/.npm/qns/0.1.0/package.tgz', '.' ]
+11 verbose tarball /Users/mcgintke/.npm/qns/0.1.0/package.tgz
+12 verbose folder .
+13 info prepublish qns@0.1.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/mcgintke/.npm/1f1177db-tar.lock
+16 silly lockFile 5bd53741-gintke-npm-qns-0-1-0-package-tgz tar:///Users/mcgintke/.npm/qns/0.1.0/package.tgz
+17 verbose lock tar:///Users/mcgintke/.npm/qns/0.1.0/package.tgz /Users/mcgintke/.npm/5bd53741-gintke-npm-qns-0-1-0-package-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 5bd53741-gintke-npm-qns-0-1-0-package-tgz tar:///Users/mcgintke/.npm/qns/0.1.0/package.tgz
+21 silly lockFile 5bd53741-gintke-npm-qns-0-1-0-package-tgz tar:///Users/mcgintke/.npm/qns/0.1.0/package.tgz
+22 silly lockFile de8e8016-s-mcgintke-npm-qns-0-1-0-package /Users/mcgintke/.npm/qns/0.1.0/package
+23 verbose lock /Users/mcgintke/.npm/qns/0.1.0/package /Users/mcgintke/.npm/de8e8016-s-mcgintke-npm-qns-0-1-0-package.lock
+24 silly lockFile de8e8016-s-mcgintke-npm-qns-0-1-0-package /Users/mcgintke/.npm/qns/0.1.0/package
+25 silly lockFile de8e8016-s-mcgintke-npm-qns-0-1-0-package /Users/mcgintke/.npm/qns/0.1.0/package
+26 silly lockFile 3a52ce78- .
+27 silly lockFile 3a52ce78- .
+28 silly publish { name: 'qns',
+28 silly publish   version: '0.1.0',
+28 silly publish   description: 'A minimal library that wraps Node.js DNS with Q promises',
+28 silly publish   main: 'index.js',
+28 silly publish   scripts: { test: 'mocha' },
+28 silly publish   repository: { type: 'git', url: 'https://github.com/atomicframeworks/qns' },
+28 silly publish   keywords: [ 'dns', 'q', 'promise' ],
+28 silly publish   author:
+28 silly publish    { name: 'Kevin McGinty',
+28 silly publish      email: 'atomic.frameworks@gmail.com',
+28 silly publish      url: 'http://www.atomicframeworks.com/' },
+28 silly publish   licenses:
+28 silly publish    [ { type: 'MIT',
+28 silly publish        url: 'https://github.com/atomicframeworks/qns/blob/master/LICENSE' } ],
+28 silly publish   bugs: { url: 'https://github.com/atomicframeworks/qns/issues' },
+28 silly publish   homepage: 'https://github.com/atomicframeworks/qns',
+28 silly publish   dependencies: { q: '^1.0.1' },
+28 silly publish   devDependencies: { chai: '^1.9.2', mocha: '^1.21.5' },
+28 silly publish   readme: 'QNS\n=========\n\nA small library that wraps Node.js DNS with Q promises.\n\n## Installation\n\n    npm install qns --save\n\n## Usage\n\n    var qns = require(\'qns\');\n\n\tqns.lookup(\'www.google.com\').then(function (results) {\n\t\tconsole.dir(results);\n\t});\n\n## Tests\n\n    npm test\n\n## Contributing\n\nIn lieu of a formal styleguide, take care to maintain the existing coding style.\nAdd unit tests for any new or changed functionality. Lint and test your code.\n\n## Release History\n\n* 0.1.0 Initial release',
+28 silly publish   readmeFilename: 'README.md',
+28 silly publish   gitHead: 'c10c89f8ead6cb0fd3075345462ae9a8318081fe',
+28 silly publish   bundleDependencies: [ 'q' ],
+28 silly publish   _id: 'qns@0.1.0',
+28 silly publish   _shasum: '7407c27f9aa287c883aa2e1ee99794fb11ed4af0',
+28 silly publish   _from: '.' }
+29 verbose request where is /qns
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id e8fb7fbf1a596016
+32 verbose url raw /qns
+33 verbose url resolving [ 'https://registry.npmjs.org/', './qns' ]
+34 verbose url resolved https://registry.npmjs.org/qns
+35 verbose request where is https://registry.npmjs.org/qns
+36 info trying registry request attempt 1 at 16:57:05
+37 http PUT https://registry.npmjs.org/qns
+38 http 403 https://registry.npmjs.org/qns
+39 verbose headers { date: 'Mon, 13 Oct 2014 20:57:06 GMT',
+39 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=60',
+39 verbose headers   'content-length': '2756',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   'x-served-by': 'cache-jfk1026-JFK',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1413233826.037814,VS0,VE399',
+39 verbose headers   'keep-alive': 'timeout=10, max=50',
+39 verbose headers   connection: 'Keep-Alive' }
+40 error publish Failed PUT 403
+41 error Error: forbidden cannot modify pre-existing version: 0.1.0
+41 error old={"name":"qns","description":"Qiyi Node Server","version":"0.1.0","dependencies":{"commander":"2.0.0","async":"0.2.9","express":"3.3.7","forever":"0.10.11","qiyilib":"*","consolidate":"0.10.0","loglevel":"*","mongoose":"3.8.4"},"main":"./index.js","bin":{"qns":"bin/qns.js"},"_id":"qns@0.1.0","dist":{"shasum":"dbf0c81ad9f14c4c47327534cbd970a66c419f7c","tarball":"http://registry.npmjs.org/qns/-/qns-0.1.0.tgz"},"_from":".","_npmVersion":"1.3.11","_npmUser":{"name":"seon","email":"seon.piao@gmail.com"},"maintainers":[{"name":"seon","email":"seon.piao@gmail.com"}]}
+41 error new={"name":"qns","version":"0.1.0","description":"A minimal library that wraps Node.js DNS with Q promises","main":"index.js","scripts":{"test":"mocha"},"repository":{"type":"git","url":"https://github.com/atomicframeworks/qns"},"keywords":["dns","q","promise"],"author":{"name":"Kevin McGinty","email":"atomic.frameworks@gmail.com","url":"http://www.atomicframeworks.com/"},"licenses":[{"type":"MIT","url":"https://github.com/atomicframeworks/qns/blob/master/LICENSE"}],"bugs":{"url":"https://github.com/atomicframeworks/qns/issues"},"homepage":"https://github.com/atomicframeworks/qns","dependencies":{"q":"^1.0.1"},"devDependencies":{"chai":"^1.9.2","mocha":"^1.21.5"},"readme":"QNS\u000a=========\u000a\u000aA small library that wraps Node.js DNS with Q promises.\u000a\u000a## Installation\u000a\u000a    npm install qns --save\u000a\u000a## Usage\u000a\u000a    var qns = require('qns');\u000a\u000a\u0009qns.lookup('www.google.com').then(function (results) {\u000a\u0009\u0009console.dir(results);\u000a\u0009});\u000a\u000a## Tests\u000a\u000a    npm test\u000a\u000a## Contributing\u000a\u000aIn lieu of a formal styleguide, take care to maintain the existing coding style.\u000aAdd unit tests for any new or changed functionality. Lint and test your code.\u000a\u000a## Release History\u000a\u000a* 0.1.0 Initial release","readmeFilename":"README.md","gitHead":"c10c89f8ead6cb0fd3075345462ae9a8318081fe","bundleDependencies":["q"],"_id":"qns@0.1.0","_shasum":"7407c27f9aa287c883aa2e1ee99794fb11ed4af0","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"atomicframeworks","email":"atomic.frameworks@gmail.com"},"maintainers":[{"name":"atomicframeworks","email":"atomic.frameworks@gmail.com"}],"dist":{"shasum":"7407c27f9aa287c883aa2e1ee99794fb11ed4af0","tarball":"http://registry.npmjs.org/qns/-/qns-0.1.0.tgz"}}: qns
+41 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+41 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+41 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
+41 error     at Request.emit (events.js:98:17)
+41 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+41 error     at Request.emit (events.js:117:20)
+41 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+41 error     at IncomingMessage.emit (events.js:117:20)
+41 error     at _stream_readable.js:943:16
+41 error     at process._tickCallback (node.js:419:13)
+42 error If you need help, you may report this *entire* log,
+42 error including the npm and node versions, at:
+42 error     <http://github.com/npm/npm/issues>
+43 error System Darwin 13.4.0
+44 error command "node" "/usr/local/bin/npm" "publish"
+45 error cwd /Users/mcgintke/projects/qns
+46 error node -v v0.10.32
+47 error npm -v 1.4.28
+48 verbose exit [ 1, true ]

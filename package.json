@@ -1,14 +1,14 @@
 {
-  "name": "qns",
+  "name": "q-dns",
   "version": "0.1.0",
-  "description": "A minimal library that wraps Node.js DNS with Q promises",
+  "description": "DNS using Q promises",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/atomicframeworks/qns"
+    "url": "https://github.com/atomicframeworks/q-dns"
   },
   "keywords": [
     "dns",
@@ -19,13 +19,13 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/atomicframeworks/qns/blob/master/LICENSE"	  
+      "url": "https://github.com/atomicframeworks/q-dns/blob/master/LICENSE"	  
   	}
   ],
   "bugs": {
-    "url": "https://github.com/atomicframeworks/qns/issues"
+    "url": "https://github.com/atomicframeworks/q-dns/issues"
   },
-  "homepage": "https://github.com/atomicframeworks/qns",
+  "homepage": "https://github.com/atomicframeworks/q-dns",
   "bundledDependencies": [
 	"q"
   ],
