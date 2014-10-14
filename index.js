@@ -1,6 +1,6 @@
 // Convert Node.js DNS to use promise style callbacks   
 (function (module) {
-    'use strict'
+    'use strict';
 
     var dns = require('dns'),
         q = require('q');
